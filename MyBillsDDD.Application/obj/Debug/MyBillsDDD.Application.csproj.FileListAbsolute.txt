@@ -1,0 +1,7 @@
+C:\git\MyBillsDDD\MyBillsDDD.Application\bin\Debug\MyBillsDDD.Application.dll
+C:\git\MyBillsDDD\MyBillsDDD.Application\bin\Debug\MyBillsDDD.Application.pdb
+C:\git\MyBillsDDD\MyBillsDDD.Application\bin\Debug\MyBillsDDD.Domain.dll
+C:\git\MyBillsDDD\MyBillsDDD.Application\bin\Debug\MyBillsDDD.Domain.pdb
+C:\git\MyBillsDDD\MyBillsDDD.Application\obj\Debug\MyBillsDDD.Application.csprojResolveAssemblyReference.cache
+C:\git\MyBillsDDD\MyBillsDDD.Application\obj\Debug\MyBillsDDD.Application.dll
+C:\git\MyBillsDDD\MyBillsDDD.Application\obj\Debug\MyBillsDDD.Application.pdb

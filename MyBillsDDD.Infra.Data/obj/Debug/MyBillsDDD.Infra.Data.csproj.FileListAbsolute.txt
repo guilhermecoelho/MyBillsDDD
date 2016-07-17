@@ -1,0 +1,15 @@
+C:\git\MyBillsDDD\MyBillsDDD.Infra.Data\bin\Debug\MyBillsDDD.Infra.Data.dll.config
+C:\git\MyBillsDDD\MyBillsDDD.Infra.Data\bin\Debug\MyBillsDDD.Infra.Data.dll
+C:\git\MyBillsDDD\MyBillsDDD.Infra.Data\bin\Debug\MyBillsDDD.Infra.Data.pdb
+C:\git\MyBillsDDD\MyBillsDDD.Infra.Data\bin\Debug\EntityFramework.dll
+C:\git\MyBillsDDD\MyBillsDDD.Infra.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\git\MyBillsDDD\MyBillsDDD.Infra.Data\bin\Debug\EntityFramework.xml
+C:\git\MyBillsDDD\MyBillsDDD.Infra.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\git\MyBillsDDD\MyBillsDDD.Infra.Data\obj\Debug\MyBillsDDD.Infra.Data.csprojResolveAssemblyReference.cache
+C:\git\MyBillsDDD\MyBillsDDD.Infra.Data\obj\Debug\MyBillsDDD.Infra.Data.dll
+C:\git\MyBillsDDD\MyBillsDDD.Infra.Data\obj\Debug\MyBillsDDD.Infra.Data.pdb
+C:\git\MyBillsDDD\MyBillsDDD.Infra.Data\bin\Debug\MyBillsDDD.Domain.dll
+C:\git\MyBillsDDD\MyBillsDDD.Infra.Data\bin\Debug\MyBillsDDD.Domain.pdb
+C:\git\MyBillsDDD\MyBillsDDD.Infra.Data\obj\Debug\MyBillsDDD.Infra.Data.Migrations.initial.resources
+C:\git\MyBillsDDD\MyBillsDDD.Infra.Data\obj\Debug\MyBillsDDD.Infra.Data.csproj.GenerateResource.Cache
+C:\git\MyBillsDDD\MyBillsDDD.Infra.Data\obj\Debug\MyBillsDDD.Infra.Data.Migrations.initial1.resources
