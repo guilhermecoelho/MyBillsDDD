@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiIdentity", "WebApiIde
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBillsDD.infra.CrossCutting.IoC", "MyBillsDD.infra.CrossCutting.IoC\MyBillsDD.infra.CrossCutting.IoC.csproj", "{5192CC1D-6299-495D-AC48-F2DAC5915276}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBillsDDD.infra.Repositories", "MyBillsDDD.infra.Repositories\MyBillsDDD.infra.Repositories.csproj", "{76F2048B-3E74-4E39-9B52-6685C5DC52F1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{5192CC1D-6299-495D-AC48-F2DAC5915276}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5192CC1D-6299-495D-AC48-F2DAC5915276}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5192CC1D-6299-495D-AC48-F2DAC5915276}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76F2048B-3E74-4E39-9B52-6685C5DC52F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76F2048B-3E74-4E39-9B52-6685C5DC52F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76F2048B-3E74-4E39-9B52-6685C5DC52F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76F2048B-3E74-4E39-9B52-6685C5DC52F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -70,5 +76,6 @@ Global
 		{2C6A4656-1FC7-4BFC-A072-BCE35B86387F} = {E0D23544-5536-4FE0-B960-201B897372CC}
 		{75B3644D-8C51-4DC1-841D-8A0EAD827764} = {E0D23544-5536-4FE0-B960-201B897372CC}
 		{5192CC1D-6299-495D-AC48-F2DAC5915276} = {D08F1539-DC2C-4AEB-AAB1-D59C90654C3C}
+		{76F2048B-3E74-4E39-9B52-6685C5DC52F1} = {9CCF171A-9097-45DF-A59E-08DAB6F484C4}
 	EndGlobalSection
 EndGlobal

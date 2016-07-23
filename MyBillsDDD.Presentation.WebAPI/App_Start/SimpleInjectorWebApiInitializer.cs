@@ -9,7 +9,7 @@ namespace MyBillsDDD.Presentation.WebAPI.App_Start
     using Application.Applications;
     using Domain.Services;
     using Domain.Repositories;
-    using Infra.Data.Repositories;
+    using infra.Repositories;
 
     public static class SimpleInjectorWebApiInitializer
     {
@@ -34,7 +34,7 @@ namespace MyBillsDDD.Presentation.WebAPI.App_Start
 
             container.Register<IBillService, BillService>(Lifestyle.Scoped);
             container.Register<IBillAppService, BillAppService>(Lifestyle.Scoped);
-            //container.Register<IBillRepository, BillRepository>(Lifestyle.Scoped);
+            container.Register<IBillRepository, BillRepository>(Lifestyle.Scoped);
 
             // For instance:
             // container.Register<IUserRepository, SqlUserRepository>(Lifestyle.Scoped);

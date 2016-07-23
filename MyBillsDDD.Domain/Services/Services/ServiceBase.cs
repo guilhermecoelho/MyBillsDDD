@@ -1,5 +1,4 @@
-﻿
-using MyBillsDDD.Domain.Repositories;
+﻿using MyBillsDDD.Domain.Repositories;
 using System;
 using System.Collections.Generic;
 

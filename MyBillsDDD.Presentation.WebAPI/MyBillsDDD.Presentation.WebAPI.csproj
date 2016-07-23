@@ -258,6 +258,10 @@
       <Project>{4d727e86-2f6b-42b2-897c-a2b8c5c670bf}</Project>
       <Name>MyBillsDDD.Infra.Data</Name>
     </ProjectReference>
+    <ProjectReference Include="..\MyBillsDDD.infra.Repositories\MyBillsDDD.infra.Repositories.csproj">
+      <Project>{76f2048b-3e74-4e39-9b52-6685c5dc52f1}</Project>
+      <Name>MyBillsDDD.infra.Repositories</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

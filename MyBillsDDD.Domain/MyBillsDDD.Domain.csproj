@@ -31,7 +31,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Entities\Bill.cs" />
-    <Compile Include="MyBillsDDD\Domain\Services\Repositories\IRepositoryBase.cs" />
     <Compile Include="Repositories\Bill\IBillRepository.cs" />
     <Compile Include="Repositories\IRepositoryBase.cs" />
     <Compile Include="Services\Services\Bill\BillService.cs" />
@@ -43,7 +42,6 @@
   <ItemGroup>
     <Reference Include="System" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

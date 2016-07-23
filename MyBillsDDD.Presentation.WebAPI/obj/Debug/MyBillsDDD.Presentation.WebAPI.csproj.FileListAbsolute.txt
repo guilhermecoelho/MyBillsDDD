@@ -64,3 +64,5 @@ C:\git\MyBillsDDD\MyBillsDDD.Presentation.WebAPI\bin\MyBillsDDD.Infra.Data.dll
 C:\git\MyBillsDDD\MyBillsDDD.Presentation.WebAPI\bin\EntityFramework.dll
 C:\git\MyBillsDDD\MyBillsDDD.Presentation.WebAPI\bin\MyBillsDDD.Infra.Data.pdb
 C:\git\MyBillsDDD\MyBillsDDD.Presentation.WebAPI\bin\EntityFramework.xml
+C:\git\MyBillsDDD\MyBillsDDD.Presentation.WebAPI\bin\MyBillsDDD.infra.Repositories.dll
+C:\git\MyBillsDDD\MyBillsDDD.Presentation.WebAPI\bin\MyBillsDDD.infra.Repositories.pdb
