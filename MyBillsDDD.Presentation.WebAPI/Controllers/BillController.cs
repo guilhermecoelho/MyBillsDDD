@@ -1,4 +1,7 @@
-﻿using MyBillsDDD.Application.Interfaces;
+﻿using AutoMapper;
+using MyBillsDDD.Application.Interfaces;
+using MyBillsDDD.Domain.Entities;
+using MyBillsDDD.Presentation.VM;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,10 +21,13 @@ namespace MyBillsDDD.Presentation.WebAPI.Controllers
         }
 
         // GET: api/Bill
-        public IEnumerable<string> Get()
+        public IEnumerable<Bill> Get()
         {
             var bills = _billAppService.GetAll();
-            return new string[] { "value1", "value2" };
+
+           BillVM t = Mapper.Map<Bill, BillVM>(bills.FirstOrDefault());
+
+            return bills;
         }
 
         // GET: api/Bill/5

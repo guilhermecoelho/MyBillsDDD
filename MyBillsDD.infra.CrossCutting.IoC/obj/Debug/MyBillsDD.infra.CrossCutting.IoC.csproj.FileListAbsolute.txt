@@ -1,7 +1,0 @@
-C:\git\MyBillsDDD\MyBillsDD.infra.CrossCutting.IoC\bin\Debug\MyBillsDD.infra.CrossCutting.IoC.dll
-C:\git\MyBillsDDD\MyBillsDD.infra.CrossCutting.IoC\bin\Debug\MyBillsDD.infra.CrossCutting.IoC.pdb
-C:\git\MyBillsDDD\MyBillsDD.infra.CrossCutting.IoC\bin\Debug\SimpleInjector.dll
-C:\git\MyBillsDDD\MyBillsDD.infra.CrossCutting.IoC\bin\Debug\SimpleInjector.xml
-C:\git\MyBillsDDD\MyBillsDD.infra.CrossCutting.IoC\obj\Debug\MyBillsDD.infra.CrossCutting.IoC.dll
-C:\git\MyBillsDDD\MyBillsDD.infra.CrossCutting.IoC\obj\Debug\MyBillsDD.infra.CrossCutting.IoC.pdb
-C:\git\MyBillsDDD\MyBillsDD.infra.CrossCutting.IoC\bin\Debug\MyBillsDD.infra.CrossCutting.IoC.dll.config

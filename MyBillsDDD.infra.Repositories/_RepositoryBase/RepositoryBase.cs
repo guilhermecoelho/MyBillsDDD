@@ -24,7 +24,15 @@ namespace MyBillsDDD.infra.Repositories
 
         public IEnumerable<TEntity> GetAll()
         {
-            return db.Set<TEntity>().ToList();
+            try
+            {
+                return db.Set<TEntity>().ToList();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+           
         }
 
         public TEntity GetById(int id)

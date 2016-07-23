@@ -1,4 +1,5 @@
 ﻿
+using MyBillsDDD.Presentation.WebAPI.AutoMapper;
 using System.Web.Http;
 using System.Web.Mvc;
 using System.Web.Optimization;
@@ -16,15 +17,7 @@ namespace MyBillsDDD.Presentation.WebAPI
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
 
-            //var container = new Container();
-
-            //container.Options.DefaultScopedLifestyle = new WebApiRequestLifestyle();
-
-            //container.Register<IBillService, BillService>(Lifestyle.Scoped);
-            //container.Register<IBillAppService, BillAppService>(Lifestyle.Scoped);
-            //container.Register<IBillRepository, BillRepository>(Lifestyle.Scoped);
-
-
+            AutoMapperConfig.RegisterMapper();
         }
     }
 }

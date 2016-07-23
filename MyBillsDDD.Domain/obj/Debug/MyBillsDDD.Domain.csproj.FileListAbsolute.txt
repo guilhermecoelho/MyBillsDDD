@@ -1,4 +1,0 @@
-C:\git\MyBillsDDD\MyBillsDDD.Domain\bin\Debug\MyBillsDDD.Domain.dll
-C:\git\MyBillsDDD\MyBillsDDD.Domain\bin\Debug\MyBillsDDD.Domain.pdb
-C:\git\MyBillsDDD\MyBillsDDD.Domain\obj\Debug\MyBillsDDD.Domain.dll
-C:\git\MyBillsDDD\MyBillsDDD.Domain\obj\Debug\MyBillsDDD.Domain.pdb
