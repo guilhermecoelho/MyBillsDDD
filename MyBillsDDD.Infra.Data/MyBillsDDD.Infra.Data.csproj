@@ -33,13 +33,9 @@
     <Compile Include="Context\IMyBillsDDDContext.cs" />
     <Compile Include="Context\MyBillsDDDContext.cs" />
     <Compile Include="EntityConfig\BillConfiguration.cs" />
-    <Compile Include="Migrations\201606262243091_initial.cs" />
-    <Compile Include="Migrations\201606262243091_initial.Designer.cs">
-      <DependentUpon>201606262243091_initial.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201606262340161_initial1.cs" />
-    <Compile Include="Migrations\201606262340161_initial1.Designer.cs">
-      <DependentUpon>201606262340161_initial1.cs</DependentUpon>
+    <Compile Include="Migrations\201607240150060_initial.cs" />
+    <Compile Include="Migrations\201607240150060_initial.Designer.cs">
+      <DependentUpon>201607240150060_initial.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -63,18 +59,15 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201606262243091_initial.resx">
-      <DependentUpon>201606262243091_initial.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201606262340161_initial1.resx">
-      <DependentUpon>201606262340161_initial1.cs</DependentUpon>
-    </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\MyBillsDDD.Domain\MyBillsDDD.Domain.csproj">
       <Project>{5dec6af7-2c72-47b6-bcf7-a68d4d2de4ed}</Project>
       <Name>MyBillsDDD.Domain</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201607240150060_initial.resx">
+      <DependentUpon>201607240150060_initial.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

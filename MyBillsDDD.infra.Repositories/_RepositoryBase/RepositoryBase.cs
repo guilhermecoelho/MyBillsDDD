@@ -32,7 +32,6 @@ namespace MyBillsDDD.infra.Repositories
             {
                 throw ex;
             }
-           
         }
 
         public TEntity GetById(int id)

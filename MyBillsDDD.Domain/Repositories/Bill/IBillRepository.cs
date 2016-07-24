@@ -4,5 +4,7 @@ namespace MyBillsDDD.Domain.Repositories
 {
     public interface IBillRepository: IRepositoryBase<Bill>
     {
+
+
     }
 }

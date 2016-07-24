@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using FluentValidation.Results;
 using MyBillsDDD.Application.Interfaces;
 using MyBillsDDD.Domain.Entities;
 using MyBillsDDD.Presentation.VM;
@@ -15,40 +16,47 @@ namespace MyBillsDDD.Presentation.WebAPI.Controllers
     {
         private readonly IBillAppService _billAppService;
 
-        public BillController (IBillAppService billAppService)
+        public BillController(IBillAppService billAppService)
         {
             this._billAppService = billAppService;
         }
 
         // GET: api/Bill
-        public IEnumerable<Bill> Get()
+        public IEnumerable<BillVM> Get()
         {
             var bills = _billAppService.GetAll();
 
-           BillVM t = Mapper.Map<Bill, BillVM>(bills.FirstOrDefault());
+            IEnumerable<BillVM> billsVM = Mapper.Map<IEnumerable<Bill>, IEnumerable<BillVM>>(bills);
 
-            return bills;
+            return billsVM;
         }
 
         // GET: api/Bill/5
-        public string Get(int id)
+        public BillVM Get(int id)
         {
-            return "value";
+            var bill = _billAppService.GetById(id);
+
+            BillVM billVM = Mapper.Map<Bill, BillVM>(bill);
+
+            return billVM;
         }
 
         // POST: api/Bill
-        public void Post([FromBody]string value)
+        public ValidationResult Post(BillVM billVM)
         {
+            return _billAppService.Insert(billVM);
         }
 
         // PUT: api/Bill/5
-        public void Put(int id, [FromBody]string value)
+        public ValidationResult Put(BillVM billVM)
         {
+            return _billAppService.Update(billVM);
         }
 
         // DELETE: api/Bill/5
-        public void Delete(int id)
+        public ValidationResult Delete(int id)
         {
+            return _billAppService.Delete(id);
         }
     }
 }
